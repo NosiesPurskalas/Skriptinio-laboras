@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="aprasas" content="7lab aprasas">
+    <meta name="Autorius" content="Samulionis Lukas">
+    <title>Laborickai</title>
+    <link rel="stylesheet" href="stilius.css">
+    <script type="text/javascript" src="darkmode.js" defer></script>
+</head>
+<body class="darkmode">
+    <h1>Mano CV svetaine</h1>
+
+    <header id="header" class="header d-flex flex-column justify-content-center">
+        <button id="theme-switch">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                <path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/>
+            </svg>
+        </button>
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#photo">Photo</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#audio">Audio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>Dejau ant HTML</p>
+    </section>
+
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p>Alaus penktadieniai</p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfelis</h2>
+        <p>Lenkai koseja</p>
+    </section>
+
+    <section id="photo" class="section">
+        <h2>Nuotraukytes</h2>
+        <div class="col-lg-4">
+            <img src="Img/Kostya.jpeg" width="500px" height="500px" class="img-fluid" alt="">
+        </div>
+        <div class="video-section">
+            <h3>Vidos</h3>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/shorts/mqiMGUJVocA" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <section id="video" class="section">
+        <h2>Video</h2>
+        <p>jezyk.</p>
+        <video controls width="600">
+            <source src="Img/jezyk.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="audio" class="section">
+        <h2>Audio</h2>
+        <p>BMW Ptsd</p>
+        <audio controls>
+            <source src="Img/BMW.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+<section>
+    <h1>Kosulio integraline formule</h1>s
+    <div class="formula-container">
+    
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Cauchy Integral Formula" role="img" viewBox="0 0 300 100">
+            <title>Kosio integraline formule</title>
+            <text x="10" y="50" font-size="20" font-family="Times New Roman, serif" id="formule" fill="green">
+                f(a) = (1 / 2πi) ∮ [f(z) / (z - a)] dz
+            </text>
+        </svg>
+        <p style="font-size: 20px; font-family: 'Times New Roman', serif; color: green;" id="formule">
+            π = konstanta 3.14<br>
+            i = menamasis skaičius<br>
+            f(z) = funkcija nuo z<br>
+            a = kintamasis
+        </p>        
+    </div>
+    <div class="svg-container" style="
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #d0d0d0;
+    border-radius: 10px;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" width="350" height="150" role="img" aria-label="Divergencijos teoremos piešinys">
+
+        <rect x="0" y="0" width="300" height="150" fill="#e6f7ff" rx="10" />
+        
+
+        <text x="15" y="80" fill="#003366" font-size="30" font-family="Georgia, serif" font-weight="bold">
+            ∫
+        </text>
+        <text x="35" y="90" fill="#003366" font-size="12" font-family="Georgia, serif">
+            D
+        </text>
+        <text x="55" y="80" fill="#003366" font-size="24" font-family="Georgia, serif">
+            (∇ ⋅ F) dV =
+        </text>
+        
+        <text x="185" y="80" fill="#003366" font-size="30" font-family="Georgia, serif" font-weight="bold">
+            ∫
+        </text>
+        <text x="207" y="90" fill="#003366" font-size="12" font-family="Georgia, serif">
+            ∂D
+        </text>
+        <text x="225" y="80" fill="#003366" font-size="24" font-family="Georgia, serif">
+            F ⋅ n dS
+        </text>
+    </svg>
+    </div>
+
+    <h1>Kontaktu forma</h1>
+<form id="contactform" style="margin: 25px;">
+    <label for="name">Vardas:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="surname">Pavardė:</label><br>
+    <input type="text" id="surname" name="surname" required><br><br>
+
+    <label for="email">El. Paštas:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="telephone">Telefono Numeris:</label><br>
+    <input type="tel" id="telephone" name="telephone" required><br><br>
+
+    <label for="adress">Adresas:</label><br>
+    <input type="text" id="adress" name="adress" required><br><br>
+
+    <label>1. Įvertinkite savo laimės lygį nuo 1-10:</label><br><br>
+    <input type="number" id="question1" name="question1" min="1" max="10" required><br><br>
+
+    <label>2. Ar mylite bebrus? 1 = Ne, 10 = Labai:</label><br><br>
+    <input type="number" id="question2" name="question2" min="1" max="10" required><br><br>
+
+    <label>3. Czy kochasz pana jeżyka?:</label><br><br>
+    <input type="number" id="question3" name="question3" min="1" max="10" required><br><br>
+
+    <label>4. Czy zrobiłeś zdjęcie ślimaka?:</label><br><br>
+    <input type="number" id="question4" name="question4" min="1" max="10" required><br><br>
+
+    <label>5. Kokią pažymį man įkalsit?:</label><br><br>
+    <input type="number" id="question5" name="question5" min="1" max="10" required><br><br>
+</form>
+
+<div id="output" class="result"></div>
+<button type="button" id="saveButton">Submit</button>
+
+
+
+<section>
+ <button id="scrollToTop" onclick="scrollToTop()">^<br>|</button>
+</section>
+</body>
+</html>
